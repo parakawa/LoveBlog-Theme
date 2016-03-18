@@ -170,19 +170,19 @@ p {
         text-indent: -99999px; }
 
 .facebook {
-  background: url("images/social.png") no-repeat scroll 0 0 transparent; }
+  background: url("../images/social.png") no-repeat scroll 0 0 transparent; }
 
 .twitter {
-  background: url("images/social.png") no-repeat scroll -35px 0 transparent; }
+  background: url("../images/social.png") no-repeat scroll -35px 0 transparent; }
 
 .email {
-  background: url("images/social.png") no-repeat scroll -70px 0 transparent; }
+  background: url("../images/social.png") no-repeat scroll -70px 0 transparent; }
 
 .feed {
-  background: url("images/social.png") no-repeat scroll -105px 0 transparent; }
+  background: url("../images/social.png") no-repeat scroll -105px 0 transparent; }
 
 .vimeo {
-  background: url("images/social.png") no-repeat scroll -140px 0 transparent; }
+  background: url("../images/social.png") no-repeat scroll -140px 0 transparent; }
 
 .single_sidebar_area {
   width: 220px; }
@@ -259,7 +259,7 @@ p {
     width: 440px;
     margin-top: 20px; } }
 .portfolio h2 {
-  background: url("images/portfolio.png") no-repeat scroll left center transparent;
+  background: url("../images/portfolio.png") no-repeat scroll left center transparent;
   padding-left: 68px; }
 
 .portfolio-area {
@@ -363,11 +363,11 @@ a:hover {
   .home-portfolio-text {
     width: 131px; } }
 .offer h2 {
-  background: url("images/offer.png") no-repeat scroll left center transparent;
+  background: url("../images/offer.png") no-repeat scroll left center transparent;
   padding-left: 70px; }
 
 .follow h2 {
-  background: url("images/follow.png") no-repeat scroll left center transparent;
+  background: url("../images/follow.png") no-repeat scroll left center transparent;
   padding-left: 60px; }
 
 .from_blog {
@@ -375,7 +375,7 @@ a:hover {
   .from_blog span {
     margin-left: -120px; }
     .from_blog span h2 {
-      background: url("images/heading-bg.png") repeat-x scroll 0 0 transparent;
+      background: url("../images/heading-bg.png") repeat-x scroll 0 0 transparent;
       color: #E8603C;
       font-size: 18px;
       margin-left: 120px;
@@ -389,7 +389,7 @@ a:hover {
 .from_works {
   margin-top: 30px; }
   .from_works h2 {
-    background: url("images/heading-bg.png") repeat-x scroll 0 0 transparent;
+    background: url("../images/heading-bg.png") repeat-x scroll 0 0 transparent;
     color: #E8603C;
     font-size: 18px;
     margin-left: 140px;

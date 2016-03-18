@@ -36,16 +36,16 @@
 }
 
 .facebook{
-	@include bg-img("images/social.png",0);}
+	@include bg-img("../images/social.png",0);}
 
 .twitter{
-	@include bg-img("images/social.png",-35px);}
+	@include bg-img("../images/social.png",-35px);}
 
 .email{
-	@include bg-img("images/social.png",-70px);}
+	@include bg-img("../images/social.png",-70px);}
 
 .feed{
-	@include bg-img("images/social.png",-105px);}
+	@include bg-img("../images/social.png",-105px);}
 
 .vimeo{
-	@include bg-img("images/social.png",-140px);}
+	@include bg-img("../images/social.png",-140px);}
