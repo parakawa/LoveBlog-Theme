@@ -1,9 +1,6 @@
 .header{margin: 0 auto;
-	transition: all 1.3s ease 0s;
-	-moz-transition: all 1.3s ease 0s;
-	-webkit-transition: all 1.3s ease 0s;
-	-o-transition: all 1.3s ease 0s;
-	-ms-transition: all 1.3s ease 0s;}
+	@include transition-all(1.3s,0s);
+}
 
 .logo span{
 	color: #F3AF9D;}
@@ -16,29 +13,29 @@
 
 .mainmenu{
 	margin-top: 20px;
-	margin-right: -15px;}
-
-.mainmenu ul{
-	margin:0;
-	padding:0;
-	list-style:none}
-
-.mainmenu ul li{
-	float:left}
-
-.mainmenu ul li a{
-	display: block;
-	padding: 10px 15px;
-	text-transform: uppercase;
-	color: #BCBCBC;
-	font-size: 16px;
+	margin-right: -15px;
+	ul{
+		margin:0;
+		padding:0;
+		list-style:none;
+		li{
+			float:left;
+			a{
+				display: block;
+				padding: 10px 15px;
+				text-transform: uppercase;
+				color: #BCBCBC;
+				font-size: 16px;
+			}
+		   }
+		}
 	}
 
 .mainmenu ul li a:hover,.current-page-item,.active{
-	color:#E8663C !important;}
+	color:$theme !important;}
 
 .header_bottom_area{
-	background: #F2AE9C;
+	background: $pseudo-theme;
 	min-height: 50px;}
 
 .main_content_area{

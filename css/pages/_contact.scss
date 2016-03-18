@@ -1,0 +1,168 @@
+/* contact form style ******************************/
+.cf_container{
+	margin-top: 35px;}
+
+.address span{
+	color: $theme;}
+
+.cf_txt{
+	border: 1px solid $theme !important;
+	height: 30px;
+	width: 60%;
+	outline:none;}
+
+.cf_email{
+	height: 40px;
+	width: 63%;
+	padding-left: 5px;
+	border: 1px solid $theme;
+	outline:none;}
+
+.cf_msg{
+	border: 1px solid $theme;
+	height: 200px;
+	overflow:auto;
+	font-size:14px;
+	outline:none;}
+
+.cf_submit{
+	background: none repeat scroll 0 0 $theme;
+	border: medium none;
+	color: #FFFFFF;
+	font-size: 23px;
+	height: 45px;
+	outline: medium none;
+	width: 103%;
+	cursor: pointer;}
+
+.cf_submit:hover{
+	@include transition-ease(5s);	
+	background:#fff;
+	color:$theme;
+	border:1px solid $theme;
+}
+
+.filtering_menu{
+	margin-bottom:30px;
+	.filtering_menu 
+	ul{
+	list-style: none outside none;
+	margin: 0;
+	padding: 0;
+		li{
+		float: left;
+		margin-right: 15px;
+			a{
+			color: #999999;
+			display: block;
+			padding:10px 15px;}
+			a:hover,.act{
+			color:#fff !important;
+			background:$theme}
+			}
+		}
+	}
+
+.portfolio_single_item img{
+	margin-bottom: 25px;}
+
+.portfolio_related_post{
+	margin-top: 15px;
+	h2{
+	background: url("images/heading-bg.png") repeat-x scroll 0 0 rgba(0, 0, 0, 0);
+	color: $theme;
+	font-size: 18px;
+	line-height: 18px;
+	margin-left: 140px;
+	margin-bottom:30px;
+	width:84.5%;
+		span{
+		margin-left: -140px;}}
+	}
+
+.featured{
+	background:$theme url(images/f_hover.png) no-repeat scroll center;}
+
+.featured_img:hover{
+	opacity:0.2;}
+
+/*******placeholder support**********/
+::-webkit-input-placeholder {
+   color: $theme;}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: $theme;}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: $theme;}
+
+:-ms-input-placeholder {  
+   color: $theme;}
+
+#googleMap{
+	width:670px;
+	height:300px;}
+
+.address{
+	width: 239px;}
+
+.cf{
+	width: 420px;}
+
+.cf_msg{
+	width: 100%;}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+#googleMap{
+	width:550px;}
+
+.address{
+	width: 170px;}
+
+.cf{
+	width: 366px;}
+
+.cf_msg{
+	width: 96%;}
+}
+
+/*Mobile Layout: 320px.*/
+
+@media only screen and (max-width: 767px) {
+
+#googleMap{
+	width:290px;
+	height:170px;}
+
+.address{
+	padding: 10px;
+	width: 280px;}
+
+.cf{
+	padding: 10px;
+	width: 280px;}
+
+.cf_msg{
+	width: 96%;}
+}
+
+/*Wide Mobile Layout: 480px.*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+#googleMap{
+	width:440px;
+	height:180px;}
+
+.address{
+	width: 120px;
+	padding: 5px;}
+
+.cf{
+	width: 290px;
+	padding: 5px;}
+
+.cf_msg{
+	width: 96%;}
+	}

@@ -1,0 +1,39 @@
+@mixin transition-ease($time){
+	-webkit-transition: background $time ease;
+	-moz-transition: background $time ease;
+	-ms-transition: background $time ease;
+	-o-transition: background $time ease;
+	transition: background $time ease;
+}
+
+@mixin transition-all($time1,$time2){
+	-moz-transition: all $time1 ease $time2;
+	-webkit-transition: all $time1 ease $time2;
+	-o-transition: all $time1 ease $time2;
+	-ms-transition: all $time1 ease $time2;
+	transition: all $time1 ease $time2;
+}
+
+@mixin border-gross($g){
+	border-left: $g solid #FFFFFF;
+	border-right: $g solid #FFFFFF;
+}
+
+@mixin bg-img($src,$x){
+background: url($src) no-repeat scroll $x 0 rgba(0, 0, 0, 0);
+}
+
+@mixin font-face($font-name, $file-name) { 
+	@font-face {
+	  font-family: quote($font-name);
+	  src: url($file-name + '.eot');
+	  src: url($file-name + '.woff') format('woff'),
+	       url($file-name + '.ttf')  format('truetype');
+	  font-weight: 300;
+	  font-style: normal;
+	}
+}
+
+@mixin font-family($font-name){
+	font-family: $font-name;
+}

@@ -1,0 +1,71 @@
+.single_service_container{
+	margin-left: -20px;}
+
+.single_service{
+	margin-left: 20px;
+	a{
+	background: none repeat scroll 0 0 #E8663C;
+	color: #FFFFFF;
+	display: block;
+	font-size: 12px;
+	margin-top: 20px;
+	padding: 5px 12px;
+	width: 30px; }
+	 h2{
+	color: #E8663C;
+	font-size: 16px;}
+	}
+
+	
+.single_blogpost_container,.single_work_container{
+	margin-left: -18px;}
+
+.single_blog_post,.single_work{
+	margin-bottom:30px;
+	h3{
+	color: #999999;
+	font-size: 16px;
+	margin-bottom: 2px;}
+	h4{
+	color: #E8663C;
+	font-size: 11px;}
+	}
+
+.single_main_content{
+	width: 670px;}
+
+
+
+/*Tablet Layout: 768px.*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+
+.single_main_content{
+	width: 550px;}
+
+.single_sidebar_area{
+	width: 180px;}
+}
+
+
+/*Mobile Layout: 320px.*/
+
+@media only screen and (max-width: 767px) {
+
+.single_main_content{padding: 5px;width: 290px;}
+.single_sidebar_area{padding: 5px;width: 290px;margin-top:20px}
+}
+
+/*Wide Mobile Layout: 480px.*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+.single_main_content{
+	padding: 5px;
+	width: 440px;}
+
+.single_sidebar_area{
+	padding: 5px;
+	width: 440px;
+	margin-top:20px}
+	}

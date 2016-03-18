@@ -1,12 +1,22 @@
 
-*{margin:0;
-  padding:0}
+@include font-face('BebasNeue', '../font/BEBAS___');
+@include font-face('HelveticaNeue', '../font/HelveticaNeue');
 
-body
-{font-family: sans-serif,open-sans;
+
+*{margin:0;
+  padding:0;
+@include font-family(BebasNeue);}
+
+body,p
+{@include font-family(HelveticaNeue);
  font-size:14px;
  line-height:20px;
  color:#414141;}
+
+h1, h2, h3, h4, h5, h6 {
+	@include font-family(BebasNeue);
+}
+
 
 a{color:#000;
 text-decoration:none}
@@ -42,5 +52,8 @@ p{margin-bottom:20px;}
 .floatleft{float:left}
 .floatright{float:right}
 
-.structure{display:block;margin:0 auto;transition: all 1.3s ease 0s;-moz-transition: all 1.3s ease 0s;-webkit-transition: all 1.3s ease 0s;-o-transition: all 1.3s ease 0s;-ms-transition: all 1.3s ease 0s;}
+.structure{display:block;margin:0 auto;
+	@include transition-all(1.3s,0);
+}
+
 .fix{overflow:hidden}
